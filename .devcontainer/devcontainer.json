@@ -4,7 +4,7 @@
   "forwardPorts": [3000],
 
   "postCreateCommand": "npm install",
-  "postStartCommand": "nohup npm start",
+  "postStartCommand": "./.devcontainer/start-server.sh",
 
   "customizations": {
     "vscode": {
